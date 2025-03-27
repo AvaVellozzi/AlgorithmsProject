@@ -33,16 +33,16 @@ The input file contains:
 2. The hospital preferences list: `n` lines, each containing a space-separated list of integers representing the hospital’s preference order of the residents.
 3. The resident preferences list: `n` lines, each containing a space-separated list of integers representing the resident’s preference order of the hospitals.
 
-**Example Input:**
-4
-1 3 0 2
-3 2 0 1
-0 1 3 2
-2 3 1 0
-0 3 1 2
-1 2 0 3
-2 0 3 1
-3 2 1 0
+**Example Input:**  
+4  
+1 3 0 2  
+3 2 0 1  
+0 1 3 2  
+2 3 1 0  
+0 3 1 2  
+1 2 0 3  
+2 0 3 1  
+3 2 1 0  
 
 This represents 4 hospitals and 4 residents with their preference lists.
 
@@ -50,11 +50,11 @@ This represents 4 hospitals and 4 residents with their preference lists.
 
 The output file contains the stable matches as pairs of hospital and resident indices. Each line in the output represents a pair in the format `hospital resident`.
 
-**Example Output:**
-0 2
-1 0
-2 3
-3 1
+**Example Output:**  
+0 2  
+1 0  
+2 3  
+3 1  
 
 This means:
 
@@ -85,20 +85,20 @@ This means:
    - The input files are generated dynamically for different test sizes and saved in the same directory as the script.
    - The output files will be saved with names like `output_10.txt`, `output_50.txt`, etc., corresponding to the input sizes.
 
-## Example Output in Terminal
+## Example Output in Terminal  
 
-Processed size: 10, Time taken: 0.00015 seconds
-Processed size: 50, Time taken: 0.00123 seconds
-Processed size: 100, Time taken: 0.00456 seconds
-Processed size: 500, Time taken: 0.02345 seconds
-Processed size: 1000, Time taken: 0.15678 seconds
+Processed size: 10, Time taken: 0.00015 seconds  
+Processed size: 50, Time taken: 0.00123 seconds  
+Processed size: 100, Time taken: 0.00456 seconds  
+Processed size: 500, Time taken: 0.02345 seconds  
+Processed size: 1000, Time taken: 0.15678 seconds  
 
-Summary of Execution Times:
-n = 10: 0.00015 sec
-n = 50: 0.00123 sec
-n = 100: 0.00456 sec
-n = 500: 0.02345 sec
-n = 1000: 0.15678 sec
+Summary of Execution Times:  
+n = 10: 0.00015 sec  
+n = 50: 0.00123 sec  
+n = 100: 0.00456 sec  
+n = 500: 0.02345 sec  
+n = 1000: 0.15678 sec  
 
 ## Conclusion
 
