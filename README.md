@@ -77,7 +77,7 @@ This means:
    - Run the Python script by executing the following command: python algorithm.py
 
    The script will:
-   - Generate random input files for different sizes (10, 50, 100, 500, 1000).
+   - Generate random input files for different sizes (10, 50, 100, 500, 1000, 5000, 10000).
    - Run the stable matching algorithm on each input and produce output files (e.g., `output_10.txt`, `output_50.txt`).
    - Print the execution time for each test size.
 
@@ -87,18 +87,22 @@ This means:
 
 ## Example Output in Terminal  
 
-Processed size: 10, Time taken: 0.00015 seconds  
-Processed size: 50, Time taken: 0.00123 seconds  
-Processed size: 100, Time taken: 0.00456 seconds  
-Processed size: 500, Time taken: 0.02345 seconds  
-Processed size: 1000, Time taken: 0.15678 seconds  
+Processed size: 10, Time taken: 0.0 seconds  
+Processed size: 50, Time taken: 0.00204 seconds  
+Processed size: 100, Time taken: 0.00332 seconds  
+Processed size: 500, Time taken: 0.02615 seconds  
+Processed size: 1000, Time taken: 0.08901 seconds  
+Processed size: 5000, Time taken: 2.3584 seconds  
+Processed size: 10000, Time taken: 22.65898 seconds  
 
 Summary of Execution Times:  
-n = 10: 0.00015 sec  
-n = 50: 0.00123 sec  
-n = 100: 0.00456 sec  
-n = 500: 0.02345 sec  
-n = 1000: 0.15678 sec  
+n = 10: 0.0 sec  
+n = 50: 0.00204 sec  
+n = 100: 0.00332 sec  
+n = 500: 0.02615 sec  
+n = 1000: 0.08901 sec  
+n = 5000: 2.3584 sec  
+n = 10000: 22.65898 sec  
 
 ## Conclusion
 

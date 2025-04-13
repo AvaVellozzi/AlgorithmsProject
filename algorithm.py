@@ -137,7 +137,7 @@ def stable_matching(hospitals_prefs, residents_prefs):
 
 if __name__ == "__main__":
     # Different sizes to test scalability
-    test_sizes = [10, 50, 100, 500, 1000]
+    test_sizes = [10, 50, 100, 500, 1000, 5000, 10000]
     results = []
 
     for size in test_sizes:
